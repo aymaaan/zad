@@ -7,7 +7,7 @@
         subtitle on modules listing or apps.openerp.com""",
 
     'description': """
-        Usama 3m elnas
+        Zad is a Best Medical solution  
     """,
 
     'author': "Zad Company",
@@ -20,7 +20,7 @@
     'version': '0.1',
 
     # any module necessary for this one to work correctly
-    'depends': ['base'],
+    'depends': ['base','sales'],
 
     # always loaded
     'data': [
