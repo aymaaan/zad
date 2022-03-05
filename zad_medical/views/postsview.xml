@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record model="ir.actions.act_window" id="action_list_posts">
+                <field name="name">All Posts</field>
+                <field name="res_model">zad_medical.zad_medical</field>
+                <field name="view_mode">tree,form</field>
+        </record>
+<menuitem id="menu_main"  name="Zad Medical" sequence="10" />
+   <menuitem id="menu_posts"  name="Zad Posts" parent="menu_main" />
+        <menuitem id="menu_all_posts"  name="All Posts" parent="menu_posts" action="action_list_posts" />
+        <menuitem id="menu_new_post"  name="New Post" parent="menu_posts" />
+
+    </data>
+</odoo>
